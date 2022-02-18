@@ -2,7 +2,6 @@
 Feature extractor & Automatic Severity Classifier for Motor Speech Disorder
 MotorVoice is a framework designed to extract speech features for automatic severity classification of motor speech disorder. The to-be-extracted features include voice quality-, prosody-, and pronunciation-related features. Please refer [1] for details. 
 
-So far, Experiments have been conducted on only Korean dysarthric speech. We are aiming to extend our research to other languages such as English, Chinese, Spanish, etc.
 
 ## Requirements
 * praat 
@@ -20,6 +19,9 @@ So far, Experiments have been conducted on only Korean dysarthric speech. We are
 |pronunciation features - Percentage of Correct Phonemes|kaldi*|
 |pronunciation features - Degree of Vowel Distortion|kaldi(alignment),Praat|
 
+Since MotorVoice exploits pretrained ASR model, it is highly dependent on language, especially phonemes.
+So far, Experiments have been conducted on only Korean dysarthric speech. We are aiming to extend our research to other languages such as English, Chinese, Spanish, etc.
+ 
 ---
 version https://git-lfs.github.com/spec/v1
 oid sha256:b97596a5319d558c863615058fd689357bc25f74c95a2656082a78ee516e4f65
