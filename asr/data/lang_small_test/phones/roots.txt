@@ -1,0 +1,46 @@
+shared split sil sil_B sil_E sil_I sil_S
+shared split VOCN VOCN_B VOCN_E VOCN_I VOCN_S
+shared split BREATH BREATH_B BREATH_E BREATH_I BREATH_S
+shared split NOISE NOISE_B NOISE_E NOISE_I NOISE_S
+shared split LAU LAU_B LAU_E LAU_I LAU_S
+shared split UNKNOWN UNKNOWN_B UNKNOWN_E UNKNOWN_I UNKNOWN_S
+shared split aa_B aa_E aa_I aa_S
+shared split b1_B b1_E b1_I b1_S
+shared split b2_B b2_E b2_I b2_S
+shared split bb_B bb_E bb_I bb_S
+shared split ch_B ch_E ch_I ch_S
+shared split d1_B d1_E d1_I d1_S
+shared split d2_B d2_E d2_I d2_S
+shared split dd_B dd_E dd_I dd_S
+shared split ee_B ee_E ee_I ee_S
+shared split g1_B g1_E g1_I g1_S
+shared split g2_B g2_E g2_I g2_S
+shared split gg_B gg_E gg_I gg_S
+shared split h1_B h1_E h1_I h1_S
+shared split ii_B ii_E ii_I ii_S
+shared split j1_B j1_E j1_I j1_S
+shared split jj_B jj_E jj_I jj_S
+shared split kh_B kh_E kh_I kh_S
+shared split ll_B ll_E ll_I ll_S
+shared split m1_B m1_E m1_I m1_S
+shared split n1_B n1_E n1_I n1_S
+shared split ng_B ng_E ng_I ng_S
+shared split oi_B oi_E oi_I oi_S
+shared split oo_B oo_E oo_I oo_S
+shared split ph_B ph_E ph_I ph_S
+shared split rr_B rr_E rr_I rr_S
+shared split s1_B s1_E s1_I s1_S
+shared split ss_B ss_E ss_I ss_S
+shared split th_B th_E th_I th_S
+shared split ui_B ui_E ui_I ui_S
+shared split uu_B uu_E uu_I uu_S
+shared split vv_B vv_E vv_I vv_S
+shared split wa_B wa_E wa_I wa_S
+shared split wv_B wv_E wv_I wv_S
+shared split xi_B xi_E xi_I xi_S
+shared split xx_B xx_E xx_I xx_S
+shared split ya_B ya_E ya_I ya_S
+shared split ye_B ye_E ye_I ye_S
+shared split yo_B yo_E yo_I yo_S
+shared split yu_B yu_E yu_I yu_S
+shared split yv_B yv_E yv_I yv_S

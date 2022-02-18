@@ -1,0 +1,14 @@
+# lattice-scale --inv-acoustic-scale=6 "ark:gunzip -c exp/chain/tdnn1n_online/decoded_result/lat.*.gz|" ark:- | lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- | lattice-best-path --word-symbol-table=exp/chain/tdnn1n_online/graph_tgsmall/words.txt ark:- ark,t:- | utils/int2sym.pl -f 2- exp/chain/tdnn1n_online/graph_tgsmall/words.txt | cat > exp/chain/tdnn1n_online/decoded_result/scoring_kaldi/penalty_0.0/6.txt 
+# Started at Sat Feb 19 06:08:00 KST 2022
+#
+lattice-add-penalty --word-ins-penalty=0.0 ark:- ark:- 
+lattice-scale --inv-acoustic-scale=6 'ark:gunzip -c exp/chain/tdnn1n_online/decoded_result/lat.*.gz|' ark:- 
+lattice-best-path --word-symbol-table=exp/chain/tdnn1n_online/graph_tgsmall/words.txt ark:- ark,t:- 
+LOG (lattice-scale[5.5.926~1-344c6]:main():lattice-scale.cc:107) Done 1 lattices.
+LOG (lattice-add-penalty[5.5.926~1-344c6]:main():lattice-add-penalty.cc:62) Done adding word insertion penalty to 1 lattices.
+LOG (lattice-best-path[5.5.926~1-344c6]:main():lattice-best-path.cc:99) For utterance test1_210930_3_para1, best cost 285.24 + -1127.06 = -841.824 over 222 frames.
+test1_210930_3_para1 <BREATH> 일상 이 문 쌤 너무 무덤덤 할 때 는 <BREATH> 여행 같 은 투표 해 하 기 도 있 을까 <BREATH> 
+LOG (lattice-best-path[5.5.926~1-344c6]:main():lattice-best-path.cc:124) Overall cost per frame is -3.792 = 1.28486 [graph] + -5.07686 [acoustic] over 222 frames.
+LOG (lattice-best-path[5.5.926~1-344c6]:main():lattice-best-path.cc:128) Done 1 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Feb 19 06:08:00 KST 2022, elapsed time 0 seconds

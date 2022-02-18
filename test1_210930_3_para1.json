@@ -1,0 +1,42 @@
+{
+    "result": {
+        "predicted": 1,
+        "condition": 73,
+        "probability": 31
+    },
+    "details": {
+        "voiceQuality": {
+            "jitter": 35,
+            "shimmer": 4,
+            "hnr": 12,
+            "numberOfVoiceBreaks": 35,
+            "degreeOfVoiceBreaks": 100
+        },
+        "pitch": {
+            "medianValue": 96,
+            "averageOfF0": 100,
+            "standardDeviation": 100,
+            "minimumValue": 33,
+            "maximumValue": 100,
+            "twentyFiveOfDecile": 33,
+            "seventyFiveOfDecile": 100
+        },
+        "vowelDistortion": {
+            "vsa": 39,
+            "fcr": 41,
+            "vai": 35,
+            "f2Ratio": 31
+        },
+        "speechRate": {
+            "totalDuration": 100,
+            "speechDuration": 71,
+            "speakingRate": 100,
+            "articulationRate": 100
+        },
+        "correctPhonemes": {
+            "pct": 100,
+            "pcc": 100,
+            "pcv": 100
+        }
+    }
+}

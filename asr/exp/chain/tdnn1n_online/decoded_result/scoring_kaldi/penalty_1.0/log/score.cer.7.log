@@ -1,0 +1,5 @@
+# cat exp/chain/tdnn1n_online/decoded_result/scoring_kaldi/penalty_1.0/7.chars.txt | compute-wer --text --mode=present ark:exp/chain/tdnn1n_online/decoded_result/scoring_kaldi/test_filt.chars.txt ark,p:- >& exp/chain/tdnn1n_online/decoded_result/cer_7_1.0 
+# Started at Sat Feb 19 06:08:03 KST 2022
+#
+# Accounting: time=0 threads=1
+# Ended (code 0) at Sat Feb 19 06:08:03 KST 2022, elapsed time 0 seconds
