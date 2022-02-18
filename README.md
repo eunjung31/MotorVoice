@@ -12,6 +12,7 @@ So far, Experiments have been conducted on only Korean dysarthric speech. We are
 * librispeech 
 
 ## Features & Software
+|Features|Software|
 |---|---|
 |voice quality features|Praat|
 |prosody features - pitch|Praat|
